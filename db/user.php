@@ -1,5 +1,5 @@
-<? php 
-    class User {
+<?php 
+    class User{
         
         private $userName;
         private $userPass;
