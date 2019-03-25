@@ -1,8 +1,9 @@
 <?php require('db/connection.php')?>
 <?php require('db/crud.php')?>
-<?php require('db/create.php')?>
+
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
-<body>
+
+<body >
     <?php include("components/table.php") ?>
-    <?php include("components/login.html") ?>
-    <?php include("components/newUserForm.html") ?>
+    <?php include("components/update.html") ?>
+    <?php include("components/create.html") ?>
     
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
